@@ -1,0 +1,24 @@
+body{
+    margin: 50px;
+    background-color: rgb(147, 149, 214);
+}
+.box {
+    margin: 10px;
+    border: 5px solid black;
+    background-color:white;
+    height: 300px;
+    width: 300px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+
+}

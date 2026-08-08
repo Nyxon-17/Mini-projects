@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(21, 130, 207);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: linear-gradient(135deg, rgba(0, 165, 165, 0.868), rgba(183, 35, 183, 0.456));
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.351);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.136);
+    display: flex;
+    height: 500px;
+    width: 400px;
+    justify-content: center;
+    border-radius: 14px;
+
+}
+
+.search {
+    padding: 0px 5px 0px 5px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.search input {
+    background: transparent;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    text-align: justify;
+    font-size: 1rem;
+
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+input::placeholder {
+    color: rgba(7, 0, 0, 0.741);
+    font-weight: lighter;
+
+}
+
+.search button {
+    background-color: transparent;
+    border: none;
+}
+
+.search i {
+    color: rgb(0, 0, 8);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.WeatherIcon {
+    margin: 10px;
+    height: 170px;
+    width: auto;
+}
+
+.tempture {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.city {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.last {
+    width: 350px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Humidity {
+    padding: 5px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Humidity img {
+
+    height: 50px;
+    width: auto;
+}
+
+.Humidity p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.Humidity .humi {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.wind img {
+    height: 50px;
+    width: auto;
+}
+
+.wind {
+    padding: 5px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wind p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.wind .speed {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
