@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    text-align: center;
+}
+h1{
+    font-family: "Roboto Condensed", sans-serif;
+}
+.display {
+    padding: 4px;
+    margin: 30px;
+    width: 53vw;
+    max-width: 250px;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: none;
+}
+.display:focus{
+    outline: none;
+}
+
+.container {
+    border-radius: 15px;
+    background-color: rgba(15, 14, 14, 0.855);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 20vw;
+    min-width: 300px;
+    ;
+    margin: auto;
+    padding: 20px;
+}
+
+.row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button i{
+    font-size: 35px;
+    text-align: center;
+    /* color: white; */
+}
+.button {
+    border-radius: 50px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 5px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    background: linear-gradient(135deg,rgb(255, 255, 255),rgba(0, 0, 0, 0.099));
+
+}
+
+#bigZero {
+    width: 126px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.button:active {
+    background: linear-gradient(135deg,rgb(0, 0, 0),rgba(254, 254, 254, 0.099));
+    color: white;
+}
+.color-orange{
+    background: linear-gradient(135deg,orange,rgb(200, 27, 0))
+}
