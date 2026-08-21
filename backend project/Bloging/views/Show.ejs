@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="postBox">
+        <h2 class="content">Name:</h2>
+        <h1 id="Username">
+            <%= post.username%>
+        </h1>
+        <p id="usrid">User ID: <%= post.id%>
+        </p>
+        <h2 class="content">Content:</h2>
+        <p id="usrcontent">
+            <%=post.content%>
+        </p>
+        
+        <div class="futter">
+            <button class="newPost">
+                <a href="/post/<%= post.id %>/edit">Edit</a>
+            </button>
+            <button class="newPost"><a href="http://localhost:3000/post">Back to Home</a>
+            </button>
+
+            <form action="/post/<%=post.id%>?_method=DELETE" method="post">
+
+            <button class="newPost1" type="submit">Delete Post</button>
+        </form>
+        </div>
+    </div>
+</body>
+
+</html>
